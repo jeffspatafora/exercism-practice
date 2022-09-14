@@ -16,7 +16,7 @@
 function birdsInWeek(birdsPerDay, week) {
   let totalBirdsInWeek = 0;
   let weekStart = (7 * week) - 7;
-  for (let i = 0; i <= 7; i++) {
+  for (let i = 0; i < 7; i++) {
     totalBirdsInWeek = totalBirdsInWeek + birdsPerDay[weekStart];
     weekStart++;
   }
